@@ -1,3 +1,131 @@
-.r{
-    color:blueviolet;
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.signup {
+    height: 400px;
+    width: 500px;
+    background-color: lightblue;
+    border: 2px solid black;
+    margin: 25px 25px 0px 100px;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    gap: 15px;
+    border-radius: 10px;
+}
+
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    gap: 10px;
+}
+
+.data input {
+    background-color: azure;
+    border-radius: 5px;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bu button {
+    background-color: blue;
+    border-radius: 5px;
+}
+
+.outer {
+    position: relative;
+    background-color: black;
+    height: 500px;
+    width: 500px;
+}
+
+.inner {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+}
+
+.header-container {
+    background-color: beige;
+    display: flex;
+    justify-content: space-around;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.head-container {
+    display: flex;
+    align-items: center;
+}
+
+.head-items {
+    display: flex;
+    gap: 25px;
+}
+
+.head-items li {
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo-image {
+    height: 75px;
+    width: 75px;
+    object-fit: contain;
+}
+
+.signin-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./assests/image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    object-fit: contain;
+    backdrop-filter: blur(10px);
+    height: 100vh;
+}
+
+.signin {
+    height: 300px;
+    width: 400px;
+    background-color: lightblue;
+    border: 2px solid black;
+    margin: 50px 25px 0px 100px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    border-radius: 10px;
+}
+
+.signup-link {
+    color: red;
 }

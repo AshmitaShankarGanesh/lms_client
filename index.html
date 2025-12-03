@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dashboard</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
@@ -20,14 +20,44 @@
         </nav>
     </header>
 
-    <main>
-        <section id="home">
-            <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bGVhcm5pbmd8ZW58MHx8MHx8fDA%3D&w=1000&q=80" alt="Learning Image" >
-            <img src="https://img.etimg.com/thumb/msid-124595817,width-630,resizemode-4,imgsize-158021/wipro-q2-results-live-q2-fy26-revenue-earning-net-profit-loss-bonus-shares-date-time-16-oct-2025.jpg" alt="Education Image" >
-            <img src="https://www.verdict.co.uk/wp-content/uploads/2025/01/Wipro_shutterstock_2335935755.jpg" alt="Education Image" >
+    <main class="main-container">
+        <section class="vid">
+            <video class="v" autoplay muted loop playsinline>
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4">
+            </video> 
+            <h2 class="main-text" style="text-align:center">Welcome to my website</h2>   
         </section>
-        <section id="about"></section>
-        <section id="contact"></section>
+        <section id="home">
+            <div class="home-image">
+            <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bGVhcm5pbmd8ZW58MHx8MHx8fDA%3D&w=1000&q=80" alt="Learning Image" >
+            <p>Welcome to the Wipro Dashboard</p>
+            </div>
+            <div class="home-image">
+            <img src="https://img.etimg.com/thumb/msid-124595817,width-630,resizemode-4,imgsize-158021/wipro-q2-results-live-q2-fy26-revenue-earning-net-profit-loss-bonus-shares-date-time-16-oct-2025.jpg" alt="Education Image" >
+            <p>Empowering Education through Technology</p>
+            </div>
+            <div class="home-image">
+            <img src="https://www.verdict.co.uk/wp-content/uploads/2025/01/Wipro_shutterstock_2335935755.jpg" alt="Education Image" >
+            <p>Innovating for a Brighter Future</p>
+            </div>
+        </section>
+        <section id="about">
+            <div class="image">
+                
+            </div>
+        </section>
+        <section id="contact">
+            <div class="contact">
+                <label type="text">Contact Us:</label>
+                <input type="text" placeholder="Your Email">
+                <textarea placeholder="Your Message"></textarea>
+                <button class="button-con",type="submit">Send
+            </div>
+            
+        </section>
     </main>
+
+    <footer class="footer-container">
+        <p>All rights reserved.</p>
 </body>
 </html>

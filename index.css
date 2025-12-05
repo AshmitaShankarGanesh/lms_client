@@ -287,3 +287,9 @@ img {
 .button-con:hover{
     background-color: darkblue;
 }
+#home{
+    grid-template-columns: 400px 400px 400px;
+    gap: 50px;
+    grid-template-rows: auto;
+    
+}
